@@ -1,8 +1,8 @@
 {
   "name": "mf-blue",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "version": "1.0.5",
+  "description": "The cart fragments.",
+  "module": "src/index.js",
   "scripts": {
     "start": "http-server src --port 8082 --cors",
     "deploy": "publish-microfrontend --url https://vanilla-mf-discovery-demo.my.piral.cloud/api/v1/pilet --interactive"
@@ -12,6 +12,6 @@
   "license": "MIT",
   "devDependencies": {
     "http-server": "^14.1.1",
-    "publish-microfrontend": "^0.15.8"
+    "publish-microfrontend": "1.0.1"
   }
 }

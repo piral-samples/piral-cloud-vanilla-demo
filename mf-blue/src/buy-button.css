@@ -4,9 +4,9 @@
 }
 
 #buy button {
-  background: none;
+  background: white;
   border: 1px solid gray;
-  border-radius: 20px;
+  border-radius: 0;
   cursor: pointer;
   display: block;
   font-size: 20px;

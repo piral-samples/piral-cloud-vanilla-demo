@@ -4,13 +4,13 @@ link.rel = "stylesheet";
 
 const defaultPrice = "0,00 €";
 const prices = {
-  porsche: "66,00 €",
-  fendt: "54,00 €",
-  eicher: "58,00 €",
+  porsche: "190,00 €",
+  fendt: "180,00 €",
+  eicher: "150,00 €",
 };
 
 function renderPrice(price) {
-  return `buy for ${price}`;
+  return `Buy for ${price}`;
 }
 
 class BuyButton extends HTMLElement {
@@ -52,7 +52,7 @@ class BuyButton extends HTMLElement {
 
     if (this.isConnected && bt && name === "sku" && oldValue !== newValue) {
       const price = prices[newValue] || defaultPrice;
-      bt.textContent = renderPrice(price);
+      bt.innerHTML = renderPrice(price);
     }
   }
 }
