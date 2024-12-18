@@ -4,7 +4,7 @@
   "description": "The recommendation widget.",
   "module": "src/index.js",
   "scripts": {
-    "start": "http-server src --port 8081 --cors",
+    "start": "http-server src --port 8083 --cors",
     "deploy": "publish-microfrontend --url https://vanilla-mf-discovery-demo.my.piral.cloud/api/v1/pilet --interactive"
   },
   "keywords": [],
